@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <main>
+        <aside class="scoreboard">
+            <h3>Tic-Tac: Toe</h3>
+            <p>Choose a box, then choose a Tic-Tac!</p>
+            <div class = "player-turn">
+                <span class = "player-turn-text"></span>
+            </div>
+        </aside>
+        <div class = "game">
+            <div class = "game-grid">
+                <div class = "top">
+                    <div class = "grid-cell left" id = "1" data-ticortac = ''></div>
+                    <div class = "grid-cell middleX" id = "2" data-ticortac = ''></div>
+                    <div class = "grid-cell right" id = "3" data-ticortac = ''></div>
+                </div>
+                <div class="middleY">
+                    <div class = "grid-cell left" id = "4" data-ticortac = ''></div>
+                    <div class = "grid-cell middleX" id = "5" data-ticortac = ''></div>
+                    <div class = "grid-cell right" id = "6" data-ticortac = ''></div>
+                </div>
+                <div class="bottom">
+                    <div class = "grid-cell left" id = "7" data-ticortac = ''></div>
+                    <div class = "grid-cell middleX" id = "8" data-ticortac = ''></div>
+                    <div class = "grid-cell right" id = "9" data-ticortac = ''></div>
+                </div>
+            </div>
+        </div>
+        <aside class = "tic-or-tac">
+            <button class = "tic"></button>
+            <button class = "tac"></button>
+        </aside>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
